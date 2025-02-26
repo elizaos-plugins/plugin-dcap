@@ -23,5 +23,22 @@
         "lint:fix": "biome check --apply .",
         "format": "biome format .",
         "format:fix": "biome format --write ."
+    },
+    "agentConfig": {
+        "pluginType": "elizaos:client:1.0.0",
+        "pluginParameters": {
+            "EVM_PRIVATE_KEY": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The EVM_PRIVATE_KEY used to submit the DCAP attestation on evm networks, please make sure it has enough balance to pay for the transaction fee.",
+                "optional": false
+            },
+            "DCAP_MODE": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The DCAP_MODE is used to specify the mode of generating DCAP attestation, it can be: PLUGIN-SGX, PLUGIN-TEE, or MOCK.",
+                "optional": false
+            }
+        }
     }
 }
