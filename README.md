@@ -1,4 +1,4 @@
-# @elizaos/plugin-dcap
+# @elizaos-plugins/plugin-dcap
 
 A plugin for verifying DCAP attestation on-chain built based on the [automata-dcap-attestation](https://github.com/automata-network/automata-dcap-attestation).
 
@@ -18,7 +18,7 @@ This plugin provides the following features:
 ## Installation
 
 ```bash
-pnpm install @elizaos/plugin-dcap
+pnpm install @elizaos-plugins/plugin-dcap
 ```
 
 ## Configuration
